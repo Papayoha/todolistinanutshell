@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Galindo';
+    src: url('../assets/Galindo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.header {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: blanchedalmond;
+  }
+  
+  .container {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    max-width: 70vh;
+    align-items: center;
+    border: none;
+    flex-grow: 1;
+    background: rgba(86, 0, 31, 0.15);
+    box-shadow: 22px 0px 33px rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+    overflow-x:auto;
+    overflow-y: auto;
+  }
+  .text
+  {
+    margin-top: 10px;
+width: 170px;
+height: 27px;
+font-family: 'Galindo';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 31px;
+text-align: center;
+
+color: #090808;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+  }
+.buttoncheck
+{
+  background-size: cover;
+    background-color: transparent;
+    border: none;
+   padding:3px;
+    width: 24px;
+    height: 24px;
+background-image: url('../assets/check-mark.png');
+}
+.buttoncheck:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+.buttonsaveandedit1
+{
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+ padding:3px;
+  width: 10px;
+  height: 10px;
+  justify-content: space-around;
+  background-image: url('../assets/check.png');
+}
+.buttonsaveandedit1:hover
+{
+  cursor: pointer;
+  opacity: 0.5;
+    border: 2px solid #ccc;
+    background-color: #ddd;
+  color: #090808;
+}
+.buttonsaveandedit2
+{
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+ padding:3px;
+  width: 10px;
+  height: 10px;
+  margin-left:3px;
+  justify-content: space-around;
+  background-image: url('../assets/close.png');
+}
+.buttonsaveandedit2:hover
+{
+  cursor: pointer;
+  opacity: 0.5;
+    border: 2px solid #ccc;
+    background-color: #ddd;
+  color: #090808;
+}
+.butedit
+{
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    width: 12px;
+    height: 12px;
+    background-image: url('../assets/edit.png');
+}
+.butedit:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transform: rotate(20deg);
+  background-color: #ddd;
+  color: #090808;
+}
+
+.butdel
+{
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    width: 12px;
+    height: 12px;
+    background-image: url('../assets/delete.png');
+}
+.butdel:hover
+{
+  cursor: pointer;
+  opacity: 0.5;
+  border: 2px solid #ccc;
+ background-color: #ddd;
+  color: #090808;
+}
+.textli2
+{
+font-family: 'Galindo';
+font-style: normal;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size:medium;
+padding: 20px;
+padding-left: 50px;
+}
+.textli
+{
+font-family: 'Galindo';
+font-style: normal;
+font-size:small;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+input{
+background: #D9D9D9;
+border-radius: 22px;
+border-color: rgb(31, 96, 153);
+
+}
+.listyle
+{
+    list-style: none;
+    justify-content: space-around;
+}
+.roundcorners
+{
+    display: flex;
+    justify-content: space-around;
+}
+  
+  
